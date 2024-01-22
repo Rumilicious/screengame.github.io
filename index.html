@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .containers{
+     display: grid;
+     margin: auto;
+     height: 80vw;
+     width: 800px;
+     grid-gap: 10px;
+    }
+    .div1{
+     display: grid;
+     margin: auto;
+     margin-top: 10px;
+     height: 80vw;
+     width: 800px;
+     grid-gap: 10px;
+    }
+    .box1{
+        background-color: orange;
+
+    } 
+    .box2{
+        background-color: orange;
+    } 
+    .box3{
+        background-color: rgb(234, 255, 6);
+        
+    }
+    .box4{
+        background-color: cornflowerblue;
+        
+    }
+    .box5{
+        background-color: cornflowerblue;
+    }
+    .box6{
+        background-color: cornflowerblue;
+    }
+    .box7{
+        background-color: rgb(218, 214, 214);
+    }
+    .box8{
+        background-color: rgb(218, 214, 214);
+    }
+    .box9{
+        background-color: rgb(218, 214, 214);
+    }
+    .box10{
+        background-color: rgb(218, 214, 214);
+    }
+    @media only screen and (max-width:1024px ) {
+    .containers{
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    .box1{
+        grid-column: 1/4;
+        height: 100px;
+    }
+    .box2{
+        grid-column: 4/7;
+        height: 100px;
+    }
+    .box3{
+        grid-column: 1/7;
+        padding-top: 50px;
+    }
+    .box4{
+        grid-column: 1/3;
+    }
+    .box5{
+        grid-column: 3/5;
+    }
+    .box6{
+        grid-column: 5/7;
+    }
+    .div1{
+        grid-template-columns: auto auto auto auto;
+        height: 13vh;
+    }
+    .box7{
+        grid-column: 1/2;
+    }
+    .box8{
+        grid-column: 2/3;
+    }
+    .box9{
+        grid-column: 3/4;
+    }
+    .box10{
+        grid-column: 4/5;
+    }
+}
+    /* @media only screen and (min-width: 768px) {
+        .containers{
+            grid-template-columns: auto auto;
+        }
+        .box1{
+            grid-column: 1/3;
+        }
+        .box2{
+            grid-column: 1/3;
+        }
+        .box3{
+            grid-column: 1/3;
+           min-height: 80px;
+        }
+        .box4{
+            grid-column: 1/3;
+        }
+        .box5{
+            grid-column: 1/3;
+        }
+        .box6{
+            grid-column: 1/3;
+        }
+        .div{
+            grid-template-columns: auto auto auto auto;
+        }
+        .box7{
+            grid-column: 1/3;
+        }
+        .box8{
+            grid-column: 3/5;
+        }
+        .box9{
+            grid-column: 1/3;
+        }
+        .box10{
+            grid-column: 3/5;
+        }
+        
+    }
+    @media only screen and (min-width:  320px)  {
+    .containers{
+            grid-template-columns: auto auto;
+        }
+        .box1{
+            grid-column: 1/3;
+        }
+        .box2{
+            grid-column: 1/3;
+        }
+        .box3{
+            grid-column: 1/3;
+           min-height: 30px;
+        }
+        .box4{
+            grid-column: 1/3;
+            min-height:70px ;
+        }
+        .box5{
+            grid-column: 1/3;
+            min-height:70px ;
+        }
+        .box6{
+            grid-column: 1/3;
+            min-height:70px ;
+        }
+        .div{
+            grid-template-columns: auto auto auto;
+        }
+        .box7{
+            grid-column: 1/5;
+            min-height: 40px;
+        }
+        .box8{
+            grid-column: 1/5;
+            min-height: 40px;
+        }
+        .box9{
+            grid-column: 1/5;
+            min-height: 40px;
+        }
+        .box10{
+            grid-column: 1/5;
+            min-height: 40px;
+        }
+        } */
+    
+
+
+  
+   
+   
+
+</style>
+<body>
+    <div class="containers">
+   <div class="box1"></div>
+   <div class="box2"></div>
+   <div class="box3"></div>
+   <div class="box4"></div>
+   <div class="box5"></div>
+   <div class="box6"></div>
+    </div>
+    <div class="div1"> 
+   <div class="box7"></div>
+   <div class="box8"></div>
+   <div class="box9"></div>
+   <div class="box10"></div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
